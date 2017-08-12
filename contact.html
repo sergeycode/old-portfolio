@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="origin">
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Contact. Project by Sergey Ovcharenko</title>
+    <!-- Google Web Font Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56951923-11', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    <!-- wrap for full height background -->
+    <div id="wrap" class="contact">
+    <!-- header -->
+      <header>
+
+        <!-- mobile menu -->
+        <button type="button" id="menu"><img id="menu-img" src="images/icons/menu.svg" alt="Menu"></button>
+        <!-- main navigation -->
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html#skills">skills</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- hero section -->
+      <section id="hero">
+        <!-- empty -->
+      </section>
+      <!-- contact section inside wrap-->
+      <section id="contact">
+        <h2>contact</h2>
+        <div class="line"></div>
+        <div class="row">
+          <div class="col-2">
+            <div class="text-col">
+              <div class="info">
+                <img src="images/icons/marker.png" alt="map marker icon">
+                London, ON <br>
+                Canada <br>
+              </div>
+              <div class="info">
+                <img src="images/icons/envelope_b.png" alt="envelope icon">
+                  <a href="mailto:s_ovcharenko@outlook.com">s_ovcharenko@outlook.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <form method="POST" action="http://formspree.io/s_ovcharenko@outlook.com">
+              <input type="text" name="name" placeholder="name"><br>
+              <input type="email" name="email" placeholder="email"><br>
+              <textarea name="message" rows="5" id="message" placeholder="message (20 min)" oninput="verify()"></textarea>
+              <button type="submit" name="button" id="button">send message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- footer with links -->
+    <footer>
+      <div class="col-2">
+        <ul id="social">
+          <li><a href="https://www.facebook.com/ovcharenko" target="_blank"><img src="images/icons/facebook.png" alt="Facebook link"></a></li>
+          <li><a href="https://www.linkedin.com/in/sergeyovcharenko/" target="_blank"><img src="images/icons/linkedin.png" alt="Linkedin link"></a></li>
+          <li><a href="https://twitter.com/sergeycode" target="_blank"><img src="images/icons/twitter.png" alt="Twitter link"></a></li>
+          <li><a href="https://www.behance.net/s_ovcharenko" target="_blank"><img src="images/icons/behance.png" alt="Behance link"></a></li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <div class="copyright">
+          <p>&copy; Developed by Sergey Ovcharenko</p>
+          <img id="envelope" src="images/icons/envelope_w.png" alt="envelope icon"> <a href="mailto:s_ovcharenko@outlook.com">s_ovcharenko@outlook.com</a>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      var sendButton = document.getElementById("button");
+      //disable button
+      function disableButton() {
+        sendButton.disabled = true;
+        sendButton.style.borderColor = "#999";
+        sendButton.style.cursor = "not-allowed";
+      }
+      //enable button
+      function enableButton() {
+        sendButton.disabled = false;
+        sendButton.style.borderColor = "#222";
+        sendButton.style.cursor = "pointer";
+      }
+      //button disabled by default
+      document.onload = disableButton();
+      function verify() {
+        var message = document.getElementById("message").value;
+        if (message.length > 20 ) {
+          enableButton();
+        }
+      }
+    </script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

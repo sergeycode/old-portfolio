@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="495px" height="448px" viewBox="0 0 495 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>sketch-svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M247,9.43154176 L7.02973822,288.263384 L109.989924,427.78887 L247,442.468521 L384.010076,427.78887 L486.970262,288.263384 L247,9.43154176 Z" id="Polygon" stroke="#000000" stroke-width="11" fill-rule="nonzero" transform="translate(247.000000, 224.500000) rotate(-180.000000) translate(-247.000000, -224.500000) "></path>
+        <path d="M247,166.365527 L7.62991311,444.5 L486.370087,444.5 L247,166.365527 Z" id="Polygon" stroke="#000000" stroke-width="7" fill-rule="nonzero" transform="translate(247.000000, 304.500000) rotate(-180.000000) translate(-247.000000, -304.500000) "></path>
+        <path d="M247,157.304824 L388.308182,3.5 L105.691818,3.5 L247,157.304824 Z" id="Polygon" stroke="#000000" stroke-width="5" fill-rule="nonzero" transform="translate(247.000000, 81.000000) rotate(-180.000000) translate(-247.000000, -81.000000) "></path>
+        <path d="M388.697669,156.254024 L440.783981,87.1217642 L491.066366,17.5 L394.439215,17.5 L388.697669,156.254024 Z" id="Polygon" stroke="#000000" stroke-width="3" fill-rule="nonzero" transform="translate(440.500000, 88.500000) scale(-1, 1) rotate(-180.000000) translate(-440.500000, -88.500000) "></path>
+        <path d="M1.69766885,156.254024 L53.7839812,87.1217642 L104.066366,17.5 L7.43921467,17.5 L1.69766885,156.254024 Z" id="Polygon" stroke="#000000" stroke-width="3" fill-rule="nonzero" transform="translate(53.500000, 88.500000) rotate(-180.000000) translate(-53.500000, -88.500000) "></path>
+        <path d="M384.127304,143.290619 L390.603997,9.13054005 L254.593435,157.169247 L384.127304,143.290619 Z" id="Polygon" stroke="#000000" stroke-width="6" fill-rule="nonzero" transform="translate(320.500000, 81.000000) scale(-1, 1) rotate(-180.000000) translate(-320.500000, -81.000000) "></path>
+        <path d="M236.648521,142.839055 L243.037997,10.4856301 L108.859007,156.530789 L236.648521,142.839055 Z" id="Polygon" stroke="#000000" stroke-width="7" fill-rule="nonzero" transform="translate(173.500000, 81.000000) rotate(-180.000000) translate(-173.500000, -81.000000) "></path>
+        <polyline id="Line" stroke="#000000" stroke-width="10" stroke-linecap="square" points="108 170 246.5 435.5 387.5 169.5"></polyline>
+    </g>
+</svg>

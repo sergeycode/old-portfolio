@@ -1,0 +1,390 @@
+nav, header,
+section,
+main, footer {
+  display: block;
+}
+/* height 100% for full screen wrap background*/
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #ededed;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+button {
+  padding: 5px 15px;
+  background-color: transparent;
+  border: 2px solid #222;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  cursor: pointer;
+}
+a:hover,
+button:hover {
+  opacity: 0.5;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/*clearfix*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*2 responsive columns*/
+.col-2 {
+  width: 50%;
+  float: left;
+}
+/*3 responsive columns*/
+.col-3 {
+  width: 33.33%;
+  float: left;
+}
+/*centered text column*/
+.text-col {
+  width: 70%;
+  margin: 0 auto;
+}
+#wrap {
+  height: 100%;
+  background-image: url(images/main_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  color: #fff;
+  position: relative;
+}
+#menu {
+  display: none;
+  position: absolute;
+  right: 5%;
+  padding: 0;
+  border: none;
+}
+#menu img {
+  width: 70px;
+}
+/*prevent nav margin-top from adding white space to body*/
+header {
+  overflow: auto;
+}
+#nav {
+  margin-left: 4%;
+  margin-top: 70px;
+}
+header li {
+  display: inline;
+  margin-right: 4%;
+  font-size: 22px;
+}
+header a,
+footer a {
+  color: #fff;
+}
+#hero {
+  width: 40%;
+  position: absolute;
+  left: 4%;
+  bottom: 35px;
+}
+#hero h1 {
+  font-size: 60px;
+}
+#hero #hero-line {
+  border-top: 1px solid #fff;
+  margin: 10px 0;
+}
+#hero p {
+  margin: 0;
+  font-size: 24px;
+  text-align: right;
+}
+#skills,
+#portfolio,
+#blog {
+  margin: 100px 0;
+}
+#skills h2,
+#portfolio h2,
+#contact h2 {
+  font-size: 52px;
+  text-align: center;
+}
+.line {
+  width: 50%;
+  border-top: 1px solid #000;
+  margin: 20px auto 80px;
+}
+#skills img {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+#skills p {
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 22px;
+}
+/* footer*/
+footer {
+  min-height: 100px;
+  background-color: #222222;
+  color: #fff;
+}
+footer #social {
+  text-align: center;
+  margin-top: 25px;
+}
+footer #social li {
+  display: inline;
+  margin-right: 2%;
+}
+footer #social img {
+  width: 50px;
+}
+footer .copyright {
+  padding-left: 30%;
+}
+footer #envelope {
+  width: 15px;
+  margin-bottom: -3px;
+}
+/* change the background-image of #wrap for portfoilio page*/
+#wrap.portfolio {
+  background-image: url(images/portfolio_bg.jpg);
+}
+#portfolio p {
+  margin: 0;
+  padding: 0 15%;
+  font-size: 24px;
+}
+#portfolio .row,
+#blog .row {
+  margin-bottom: 70px;
+}
+#portfolio img {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+#portfolio a {
+  color: #000;
+}
+/* change the background-image of #wrap for blog page*/
+#wrap.blog {
+  background-image: url(images/blog_bg.jpg);
+}
+#blog img {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+#blog .text-col {
+  font-size: 22px;
+}
+#blog .inner-line {
+  width: 20%;
+  border-bottom: 1px solid #000;
+  margin-top: 10px;
+}
+#blog a {
+  color: #000;
+}
+#blog button {
+  display: block;
+  margin: 0 auto;
+}
+/* revert #wrap for contact page to initial height*/
+#wrap.contact {
+  height: auto;
+}
+#contact {
+  margin-top: 70px;
+  padding-bottom: 70px;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #000;
+  overflow: auto;
+}
+#contact h2 {
+  margin-top: 50px;
+}
+#contact img {
+  width: 30px;
+}
+#contact a {
+  color: #000;
+}
+#contact .text-col {
+  margin-right: 0;
+}
+#contact .info {
+  margin-left: 25%;
+  margin-bottom: 50px;
+  font-size: 20px;
+  position: relative;
+}
+#contact .info:first-of-type {
+  line-height: 2;
+}
+#contact .info img {
+  position: absolute;
+  top: -3px;
+  left: -15%;
+}
+#contact .info:first-child img {
+  top: 30px;
+}
+#contact form {
+  width: 70%;
+  margin: 0 auto;
+}
+#contact input {
+  height: 30px;
+}
+#contact input,
+#contact textarea {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-top: 2px solid #ccc;
+}
+#contact input:focus,
+#contact textarea:focus {
+  border: 2px solid #000;
+  outline: none;
+}
+#contact textarea {
+  resize: vertical;
+}
+@media screen and (max-width: 768px) {
+  .col-2 {
+    width: 100%;
+    float: none;
+    margin-bottom: 25px;
+  }
+  #blog .row {
+    border-bottom: 1px solid #ccc;
+  }
+  #contact .text-col {
+    margin: 0 auto;
+  }
+  #contact input,
+  #contact textarea {
+    display: block;
+    margin: 0 auto;
+  }
+  #contact textarea {
+    margin-bottom: 25px;
+  }
+  #contact button {
+    display: block;
+    margin: 0 auto;
+  }
+  footer {
+    height: 200px;
+  }
+  footer #social {
+    padding-top: 25px;
+  }
+  footer .copyright {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .col-3 {
+    width: 100%;
+    float: none;
+  }
+  #menu {
+    display: block;
+  }
+  #nav {
+    display: none;
+    margin: 0;
+    transition: 0.3s;
+  }
+  #nav ul {
+    padding-top: 20px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.5);
+  }
+  header li {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 1px solid #fff;
+  }
+  header li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+  }
+  #hero {
+    width: 90%;
+    text-align: center;
+   }
+  #hero h1 {
+    font-size: 38px;
+  }
+  #hero p {
+    text-align: center;
+  }
+  #skills,
+  #portfolio,
+  #blog {
+    margin: 25px 0;
+  }
+  .line {
+    width: 50%;
+    border-top: 1px solid #000;
+    margin: 20px auto 20px;
+  }
+  #skills h2,
+  #portfolio h2,
+  #contact h2 {
+    font-size: 38px;
+  }
+  #portfolio p,
+  #blog .text-col{
+    font-size: 20px;
+  }
+  #contact input {
+    height: 50px;
+  }
+  #contact input,
+  #contact textarea {
+    font-size: 20px;
+  }
+  #contact .info {
+    margin-left: 15%;
+    margin-bottom: 50px;
+  }
+  #contact .info a {
+    font-size: 16px;
+  }
+}
