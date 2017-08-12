@@ -1,2 +1,1 @@
-# sergeycode.github.io
-Welcome to my site static HTML site hosted on GitHub Pages
+Old static HTML site. Available here http://sergey-old-portfolio.surge.sh/
